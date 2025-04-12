@@ -9,3 +9,13 @@ gem "activerecord", "~> 8.0"
 gem "sqlite3", "~> 2.6"
 
 gem "rerun", "~> 0.14.0"
+
+group :development, :test do
+  gem 'rspec'
+  gem 'rack-test'
+  gem 'database_cleaner-active_record'
+end
+
+group :test do
+  gem 'simplecov', require: false
+end
