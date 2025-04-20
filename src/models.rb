@@ -2,8 +2,9 @@
 require 'active_record'
 
 DATA_DIR = File.dirname(File.expand_path(__FILE__), 2) + "/data"
+DB_NAME = ENV['DB_NAME'] || 'data.db'
 
-ActiveRecord::Base.establish_connection(adapter: 'sqlite3', database: "#{DATA_DIR}/data.db")
+ActiveRecord::Base.establish_connection(adapter: 'sqlite3', database: "#{DATA_DIR}/#{DB_NAME}")
 
 ActiveRecord::Schema.define do
   create_table :users, force: true do |t|

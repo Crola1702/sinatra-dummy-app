@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+# :nocov:
 class ApiError < StandardError
   def status_code
     raise NotImplementedError
@@ -17,3 +18,4 @@ class BadRequestError < ApiError
     400
   end
 end
+# :nocov:
