@@ -5,7 +5,7 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <script src='./assets/0.13.1/application.js' type='text/javascript'></script>
     <link href='./assets/0.13.1/application.css' media='screen, projection, print' rel='stylesheet' type='text/css' />
-    <link rel="icon" type="image/png" href="./assets/0.13.1/favicon_red.png" />
+    <link rel="icon" type="image/png" href="./assets/0.13.1/favicon_green.png" />
   </head>
 
   <body>
@@ -13,7 +13,7 @@
       <img src="./assets/0.13.1/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" class="hide">
-      <div class="timestamp">Generated <abbr class="timeago" title="2025-04-11T21:47:41-05:00">2025-04-11T21:47:41-05:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2025-04-19T20:39:59-05:00">2025-04-19T20:39:59-05:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -21,15 +21,15 @@
   <h2>
     <span class="group_name">All Files</span>
     (<span class="covered_percent">
-      <span class="red">
-  44.0%
+      <span class="green">
+  100.0%
 </span>
 
      </span>
      covered at
      <span class="covered_strength">
-       <span class="red">
-         0.44
+       <span class="green">
+         1.63
        </span>
     </span> hits/line
     )
@@ -38,15 +38,15 @@
   <a name="AllFiles"></a>
 
   <div>
-    <b>2</b> files in total.
+    <b>3</b> files in total.
   </div>
 
   <div class="t-line-summary">
-    <b>50</b> relevant lines,
-    <span class="green"><b>22</b> lines covered</span> and
-    <span class="red"><b>28</b> lines missed. </span>
-    (<span class="red">
-  44.0%
+    <b>52</b> relevant lines,
+    <span class="green"><b>52</b> lines covered</span> and
+    <span class="red"><b>0</b> lines missed. </span>
+    (<span class="green">
+  100.0%
 </span>
 )
   </div>
@@ -71,12 +71,23 @@
         
           <tr class="t-file">
             <td class="strong t-file__name"><a href="#86802e8460c90a9aa3ef175954506819a73a192e" class="src_link" title="src/app.rb">src/app.rb</a></td>
-            <td class="red strong cell--number t-file__coverage">24.32 %</td>
-            <td class="cell--number">66</td>
-            <td class="cell--number">37</td>
-            <td class="cell--number">9</td>
-            <td class="cell--number">28</td>
-            <td class="cell--number">0.24</td>
+            <td class="green strong cell--number t-file__coverage">100.00 %</td>
+            <td class="cell--number">70</td>
+            <td class="cell--number">39</td>
+            <td class="cell--number">39</td>
+            <td class="cell--number">0</td>
+            <td class="cell--number">1.85</td>
+            
+          </tr>
+        
+          <tr class="t-file">
+            <td class="strong t-file__name"><a href="#efd8f353b949ab98840eac4b43dd7de63298f3d4" class="src_link" title="src/errors.rb">src/errors.rb</a></td>
+            <td class="green strong cell--number t-file__coverage">100.00 %</td>
+            <td class="cell--number">21</td>
+            <td class="cell--number">0</td>
+            <td class="cell--number">0</td>
+            <td class="cell--number">0</td>
+            <td class="cell--number">0.00</td>
             
           </tr>
         
@@ -112,8 +123,8 @@
   <div class="header">
     <h3>src/app.rb</h3>
     <h4>
-      <span class="red">
-  24.32%
+      <span class="green">
+  100.0%
 </span>
 
       lines covered
@@ -122,9 +133,9 @@
     
 
     <div class="t-line-summary">
-      <b>37</b> relevant lines.
-      <span class="green"><b>9</b> lines covered</span> and
-      <span class="red"><b>28</b> lines missed.</span>
+      <b>39</b> relevant lines.
+      <span class="green"><b>39</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
     </div>
 
     
@@ -135,26 +146,22 @@
     <ol>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="1">
-            
-              <span class="hits">1</span>
+          <li class="never" data-hits="" data-linenumber="1">
             
 
             
 
-            <code class="ruby">require &#39;sinatra&#39;</code>
+            <code class="ruby"># frozen_string_literal: true</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="2">
-            
-              <span class="hits">1</span>
+          <li class="never" data-hits="" data-linenumber="2">
             
 
             
 
-            <code class="ruby">require &#39;json&#39;</code>
+            <code class="ruby"></code>
           </li>
         </div>
       
@@ -166,17 +173,19 @@
 
             
 
-            <code class="ruby">require_relative &#39;models&#39;</code>
+            <code class="ruby">require &#39;sinatra&#39;</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="4">
+          <li class="covered" data-hits="1" data-linenumber="4">
+            
+              <span class="hits">1</span>
             
 
             
 
-            <code class="ruby"></code>
+            <code class="ruby">require &#39;json&#39;</code>
           </li>
         </div>
       
@@ -188,7 +197,7 @@
 
             
 
-            <code class="ruby">get &#39;/&#39; do</code>
+            <code class="ruby">require_relative &#39;models&#39;</code>
           </li>
         </div>
       
@@ -200,7 +209,7 @@
 
             
 
-            <code class="ruby">  &#39;Hello world!&#39;</code>
+            <code class="ruby">require_relative &#39;errors&#39;</code>
           </li>
         </div>
       
@@ -210,12 +219,46 @@
 
             
 
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="8">
+            
+              <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">get &#39;/&#39; do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="9">
+            
+              <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  &#39;Hello world!&#39;</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="10">
+            
+
+            
+
             <code class="ruby">end</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="8">
+          <li class="never" data-hits="" data-linenumber="11">
             
 
             
@@ -225,7 +268,7 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="9">
+          <li class="never" data-hits="" data-linenumber="12">
             
 
             
@@ -235,7 +278,7 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="10">
+          <li class="covered" data-hits="1" data-linenumber="13">
             
               <span class="hits">1</span>
             
@@ -247,7 +290,9 @@
         </div>
       
         <div>
-          <li class="missed" data-hits="0" data-linenumber="11">
+          <li class="covered" data-hits="2" data-linenumber="14">
+            
+              <span class="hits">2</span>
             
 
             
@@ -257,42 +302,14 @@
         </div>
       
         <div>
-          <li class="missed" data-hits="0" data-linenumber="12">
+          <li class="covered" data-hits="2" data-linenumber="15">
+            
+              <span class="hits">2</span>
             
 
             
 
-            <code class="ruby">  raise RuntimeError.new(&#39;User not found&#39;) if user.nil?</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="missed" data-hits="0" data-linenumber="13">
-            
-
-            
-
-            <code class="ruby">  [200, {}, user.to_json]</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="14">
-            
-
-            
-
-            <code class="ruby">rescue RuntimeError =&gt; e</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="missed" data-hits="0" data-linenumber="15">
-            
-
-            
-
-            <code class="ruby">  [404, {}, JSON.dump({message: e})]</code>
+            <code class="ruby">  raise NotFoundError, &#39;User not found&#39; if user.nil?</code>
           </li>
         </div>
       
@@ -302,17 +319,19 @@
 
             
 
-            <code class="ruby">end</code>
+            <code class="ruby"></code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="17">
+          <li class="covered" data-hits="1" data-linenumber="17">
+            
+              <span class="hits">1</span>
             
 
             
 
-            <code class="ruby"></code>
+            <code class="ruby">  [200, {}, user.to_json]</code>
           </li>
         </div>
       
@@ -322,7 +341,7 @@
 
             
 
-            <code class="ruby"># Create user</code>
+            <code class="ruby">rescue ApiError =&gt; e</code>
           </li>
         </div>
       
@@ -334,12 +353,56 @@
 
             
 
+            <code class="ruby">  [e.status_code, {}, JSON.dump({ message: e })]</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="20">
+            
+
+            
+
+            <code class="ruby">end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="21">
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="22">
+            
+
+            
+
+            <code class="ruby"># Create user</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="23">
+            
+              <span class="hits">1</span>
+            
+
+            
+
             <code class="ruby">post &#39;/users&#39; do</code>
           </li>
         </div>
       
         <div>
-          <li class="missed" data-hits="0" data-linenumber="20">
+          <li class="covered" data-hits="2" data-linenumber="24">
+            
+              <span class="hits">2</span>
             
 
             
@@ -349,7 +412,9 @@
         </div>
       
         <div>
-          <li class="missed" data-hits="0" data-linenumber="21">
+          <li class="covered" data-hits="2" data-linenumber="25">
+            
+              <span class="hits">2</span>
             
 
             
@@ -359,52 +424,14 @@
         </div>
       
         <div>
-          <li class="missed" data-hits="0" data-linenumber="22">
+          <li class="covered" data-hits="2" data-linenumber="26">
+            
+              <span class="hits">2</span>
             
 
             
 
-            <code class="ruby">  data = JSON.parse(request_body, {:symbolize_names =&gt; true})</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="23">
-            
-
-            
-
-            <code class="ruby"></code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="missed" data-hits="0" data-linenumber="24">
-            
-
-            
-
-            <code class="ruby">  raise RuntimeError.new(&#39;Must specify a name&#39;) unless data.has_key? :name</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="25">
-            
-
-            
-
-            <code class="ruby"></code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="missed" data-hits="0" data-linenumber="26">
-            
-
-            
-
-            <code class="ruby">  user = User.create(name: data[:name])</code>
+            <code class="ruby">  data = JSON.parse(request_body, { symbolize_names: true })</code>
           </li>
         </div>
       
@@ -419,12 +446,14 @@
         </div>
       
         <div>
-          <li class="missed" data-hits="0" data-linenumber="28">
+          <li class="covered" data-hits="2" data-linenumber="28">
+            
+              <span class="hits">2</span>
             
 
             
 
-            <code class="ruby">  [ 201, {}, user.to_json ]</code>
+            <code class="ruby">  raise BadRequestError, &#39;Must specify a name&#39; unless data.key? :name</code>
           </li>
         </div>
       
@@ -434,17 +463,19 @@
 
             
 
-            <code class="ruby">rescue RuntimeError =&gt; e</code>
+            <code class="ruby"></code>
           </li>
         </div>
       
         <div>
-          <li class="missed" data-hits="0" data-linenumber="30">
+          <li class="covered" data-hits="1" data-linenumber="30">
+            
+              <span class="hits">1</span>
             
 
             
 
-            <code class="ruby">  [ 400, {} , JSON.dump( {message: e} ) ]</code>
+            <code class="ruby">  user = User.create(name: data[:name])</code>
           </li>
         </div>
       
@@ -454,17 +485,19 @@
 
             
 
-            <code class="ruby">end</code>
+            <code class="ruby"></code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="32">
+          <li class="covered" data-hits="1" data-linenumber="32">
+            
+              <span class="hits">1</span>
             
 
             
 
-            <code class="ruby"></code>
+            <code class="ruby">  [201, {}, user.to_json]</code>
           </li>
         </div>
       
@@ -474,7 +507,7 @@
 
             
 
-            <code class="ruby"># Get messages</code>
+            <code class="ruby">rescue ApiError =&gt; e</code>
           </li>
         </div>
       
@@ -486,82 +519,12 @@
 
             
 
-            <code class="ruby">get &#39;/users/:id/messages&#39; do</code>
+            <code class="ruby">  [e.status_code, {}, JSON.dump({ message: e })]</code>
           </li>
         </div>
       
         <div>
-          <li class="missed" data-hits="0" data-linenumber="35">
-            
-
-            
-
-            <code class="ruby">  user = User.find_by(id: params[&#39;id&#39;])</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="missed" data-hits="0" data-linenumber="36">
-            
-
-            
-
-            <code class="ruby">  raise RuntimeError.new(&quot;User with id #{params[&#39;id&#39;]} does not exist&quot;) if user.nil?</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="37">
-            
-
-            
-
-            <code class="ruby"></code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="missed" data-hits="0" data-linenumber="38">
-            
-
-            
-
-            <code class="ruby">  messages = Message.where(&quot;receiver_id = :rec_id or sender_id = :send_id&quot;, {rec_id: user.id, send_id: user.id})</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="missed" data-hits="0" data-linenumber="39">
-            
-
-            
-
-            <code class="ruby">  [200, {}, messages.to_json]</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="40">
-            
-
-            
-
-            <code class="ruby">rescue Exception =&gt; e</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="missed" data-hits="0" data-linenumber="41">
-            
-
-            
-
-            <code class="ruby">  [400, {}, JSON.dump({message: e})]</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="42">
+          <li class="never" data-hits="" data-linenumber="35">
             
 
             
@@ -571,12 +534,92 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="43">
+          <li class="never" data-hits="" data-linenumber="36">
             
 
             
 
             <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="37">
+            
+
+            
+
+            <code class="ruby"># Get messages</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="38">
+            
+              <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">get &#39;/users/:id/messages&#39; do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="2" data-linenumber="39">
+            
+              <span class="hits">2</span>
+            
+
+            
+
+            <code class="ruby">  user = User.find_by(id: params[&#39;id&#39;])</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="2" data-linenumber="40">
+            
+              <span class="hits">2</span>
+            
+
+            
+
+            <code class="ruby">  raise NotFoundError, &quot;User with id #{params[&#39;id&#39;]} does not exist&quot; if user.nil?</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="41">
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="42">
+            
+              <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  messages = Message.where(&#39;receiver_id = :rec_id or sender_id = :send_id&#39;, { rec_id: user.id, send_id: user.id })</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="43">
+            
+              <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  [200, {}, messages.to_json]</code>
           </li>
         </div>
       
@@ -586,12 +629,44 @@
 
             
 
+            <code class="ruby">rescue ApiError =&gt; e</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="45">
+            
+              <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  [e.status_code, {}, JSON.dump({ message: e })]</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="46">
+            
+
+            
+
+            <code class="ruby">end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="47">
+            
+
+            
+
             <code class="ruby"></code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="45">
+          <li class="never" data-hits="" data-linenumber="48">
             
 
             
@@ -601,7 +676,7 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="46">
+          <li class="covered" data-hits="1" data-linenumber="49">
             
               <span class="hits">1</span>
             
@@ -613,7 +688,9 @@
         </div>
       
         <div>
-          <li class="missed" data-hits="0" data-linenumber="47">
+          <li class="covered" data-hits="4" data-linenumber="50">
+            
+              <span class="hits">4</span>
             
 
             
@@ -623,17 +700,19 @@
         </div>
       
         <div>
-          <li class="missed" data-hits="0" data-linenumber="48">
+          <li class="covered" data-hits="4" data-linenumber="51">
+            
+              <span class="hits">4</span>
             
 
             
 
-            <code class="ruby">  raise RuntimeError.new(&quot;User with id #{params[&#39;id&#39;]} does not exist&quot;) if sender.nil?</code>
+            <code class="ruby">  raise NotFoundError, &quot;User with id #{params[&#39;id&#39;]} does not exist&quot; if sender.nil?</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="49">
+          <li class="never" data-hits="" data-linenumber="52">
             
 
             
@@ -643,7 +722,9 @@
         </div>
       
         <div>
-          <li class="missed" data-hits="0" data-linenumber="50">
+          <li class="covered" data-hits="3" data-linenumber="53">
+            
+              <span class="hits">3</span>
             
 
             
@@ -653,7 +734,9 @@
         </div>
       
         <div>
-          <li class="missed" data-hits="0" data-linenumber="51">
+          <li class="covered" data-hits="3" data-linenumber="54">
+            
+              <span class="hits">3</span>
             
 
             
@@ -663,42 +746,14 @@
         </div>
       
         <div>
-          <li class="missed" data-hits="0" data-linenumber="52">
+          <li class="covered" data-hits="3" data-linenumber="55">
+            
+              <span class="hits">3</span>
             
 
             
 
-            <code class="ruby">  data = JSON.parse(request_body, {:symbolize_names =&gt; true})</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="53">
-            
-
-            
-
-            <code class="ruby"></code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="missed" data-hits="0" data-linenumber="54">
-            
-
-            
-
-            <code class="ruby">  [:to, :content].each do |k|</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="missed" data-hits="0" data-linenumber="55">
-            
-
-            
-
-            <code class="ruby">    raise RuntimeError.new(&quot;Missing &#39;#{k}&#39; key&quot;) unless data.has_key? k</code>
+            <code class="ruby">  data = JSON.parse(request_body, { symbolize_names: true })</code>
           </li>
         </div>
       
@@ -708,37 +763,41 @@
 
             
 
-            <code class="ruby">  end</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="57">
-            
-
-            
-
             <code class="ruby"></code>
           </li>
         </div>
       
         <div>
-          <li class="missed" data-hits="0" data-linenumber="58">
+          <li class="covered" data-hits="3" data-linenumber="57">
+            
+              <span class="hits">3</span>
             
 
             
 
-            <code class="ruby">  receiver = User.find_by(id: data[:to])</code>
+            <code class="ruby">  %i[to content].each do |k|</code>
           </li>
         </div>
       
         <div>
-          <li class="missed" data-hits="0" data-linenumber="59">
+          <li class="covered" data-hits="6" data-linenumber="58">
+            
+              <span class="hits">6</span>
             
 
             
 
-            <code class="ruby">  raise RuntimeError.new(&quot;User with id #{params[&#39;id&#39;]} does not exist&quot;) if receiver.nil?</code>
+            <code class="ruby">    raise BadRequestError, &quot;Missing &#39;#{k}&#39; key&quot; unless data.key?(k)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="59">
+            
+
+            
+
+            <code class="ruby">  end</code>
           </li>
         </div>
       
@@ -753,27 +812,19 @@
         </div>
       
         <div>
-          <li class="missed" data-hits="0" data-linenumber="61">
+          <li class="covered" data-hits="3" data-linenumber="61">
+            
+              <span class="hits">3</span>
             
 
             
 
-            <code class="ruby">  msg = Message.create(sender_id: sender.id, receiver_id: receiver.id, content: data[:content])</code>
+            <code class="ruby">  raise BadRequestError, &#39;Message content is empty&#39; if data[:content].empty?</code>
           </li>
         </div>
       
         <div>
-          <li class="missed" data-hits="0" data-linenumber="62">
-            
-
-            
-
-            <code class="ruby">  [201, {}, msg.to_json]</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="63">
+          <li class="never" data-hits="" data-linenumber="62">
             
 
             
@@ -783,32 +834,371 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="64">
+          <li class="covered" data-hits="2" data-linenumber="63">
+            
+              <span class="hits">2</span>
             
 
             
 
-            <code class="ruby">rescue Exception =&gt; e</code>
+            <code class="ruby">  receiver = User.find_by(id: data[:to])</code>
           </li>
         </div>
       
         <div>
-          <li class="missed" data-hits="0" data-linenumber="65">
+          <li class="covered" data-hits="2" data-linenumber="64">
+            
+              <span class="hits">2</span>
             
 
             
 
-            <code class="ruby">  [400, {}, JSON.dump({message: e})]</code>
+            <code class="ruby">  raise NotFoundError, &quot;User with id #{params[&#39;id&#39;]} does not exist&quot; if receiver.nil?</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="66">
+          <li class="never" data-hits="" data-linenumber="65">
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="66">
+            
+              <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  msg = Message.create(sender_id: sender.id, receiver_id: receiver.id, content: data[:content])</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="67">
+            
+              <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  [201, {}, msg.to_json]</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="68">
+            
+
+            
+
+            <code class="ruby">rescue ApiError =&gt; e</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="3" data-linenumber="69">
+            
+              <span class="hits">3</span>
+            
+
+            
+
+            <code class="ruby">  [e.status_code, {}, JSON.dump({ message: e })]</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="70">
             
 
             
 
             <code class="ruby">end</code>
+          </li>
+        </div>
+      
+    </ol>
+  </pre>
+</div>
+
+      
+        <div class="source_table" id="efd8f353b949ab98840eac4b43dd7de63298f3d4">
+  <div class="header">
+    <h3>src/errors.rb</h3>
+    <h4>
+      <span class="green">
+  100.0%
+</span>
+
+      lines covered
+    </h4>
+
+    
+
+    <div class="t-line-summary">
+      <b>0</b> relevant lines.
+      <span class="green"><b>0</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+
+    
+
+  </div>
+
+  <pre>
+    <ol>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="1">
+            
+
+            
+
+            <code class="ruby"># frozen_string_literal: true</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="2">
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="skipped" data-hits="" data-linenumber="3">
+            
+              <span class="hits">skipped</span>
+            
+
+            
+
+            <code class="ruby"># :nocov:</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="skipped" data-hits="1" data-linenumber="4">
+            
+              <span class="hits">skipped</span>
+            
+
+            
+
+            <code class="ruby">class ApiError &lt; StandardError</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="skipped" data-hits="1" data-linenumber="5">
+            
+              <span class="hits">skipped</span>
+            
+
+            
+
+            <code class="ruby">  def status_code</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="skipped" data-hits="0" data-linenumber="6">
+            
+              <span class="hits">skipped</span>
+            
+
+            
+
+            <code class="ruby">    raise NotImplementedError</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="skipped" data-hits="" data-linenumber="7">
+            
+              <span class="hits">skipped</span>
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="skipped" data-hits="" data-linenumber="8">
+            
+              <span class="hits">skipped</span>
+            
+
+            
+
+            <code class="ruby">end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="skipped" data-hits="" data-linenumber="9">
+            
+              <span class="hits">skipped</span>
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="skipped" data-hits="1" data-linenumber="10">
+            
+              <span class="hits">skipped</span>
+            
+
+            
+
+            <code class="ruby">class NotFoundError &lt; ApiError</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="skipped" data-hits="1" data-linenumber="11">
+            
+              <span class="hits">skipped</span>
+            
+
+            
+
+            <code class="ruby">  def status_code</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="skipped" data-hits="4" data-linenumber="12">
+            
+              <span class="hits">skipped</span>
+            
+
+            
+
+            <code class="ruby">    404</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="skipped" data-hits="" data-linenumber="13">
+            
+              <span class="hits">skipped</span>
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="skipped" data-hits="" data-linenumber="14">
+            
+              <span class="hits">skipped</span>
+            
+
+            
+
+            <code class="ruby">end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="skipped" data-hits="" data-linenumber="15">
+            
+              <span class="hits">skipped</span>
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="skipped" data-hits="1" data-linenumber="16">
+            
+              <span class="hits">skipped</span>
+            
+
+            
+
+            <code class="ruby">class BadRequestError &lt; ApiError</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="skipped" data-hits="1" data-linenumber="17">
+            
+              <span class="hits">skipped</span>
+            
+
+            
+
+            <code class="ruby">  def status_code</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="skipped" data-hits="2" data-linenumber="18">
+            
+              <span class="hits">skipped</span>
+            
+
+            
+
+            <code class="ruby">    400</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="skipped" data-hits="" data-linenumber="19">
+            
+              <span class="hits">skipped</span>
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="skipped" data-hits="" data-linenumber="20">
+            
+              <span class="hits">skipped</span>
+            
+
+            
+
+            <code class="ruby">end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="skipped" data-hits="" data-linenumber="21">
+            
+              <span class="hits">skipped</span>
+            
+
+            
+
+            <code class="ruby"># :nocov:</code>
           </li>
         </div>
       
