@@ -58,6 +58,8 @@ post '/users/:id/messages' do
     raise BadRequestError, "Missing '#{k}' key" unless data.key? k
   end
 
+  raise BadRequestError, 'Message content is empty' if data[:content].empty?
+
   receiver = User.find_by(id: data[:to])
   raise NotFoundError, "User with id #{params['id']} does not exist" if receiver.nil?
 
