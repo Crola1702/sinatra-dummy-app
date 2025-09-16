@@ -1,5 +1,16 @@
 # Simple messaging app
 
+## Padawan Task Status
+
+| Task | Associated PR | Notes |
+| ---- | ------------- | ----- |
+| Code Coverage | https://github.com/Crola1702/sinatra-dummy-app/pull/1 | See **Setting up coverage** section |
+| Behavior Driven Development (BDD) | https://github.com/Crola1702/sinatra-dummy-app/pull/1 | See **Writing tests** subsection and <code>spec/app_spec.rb</code> test file. RSpec library is based on BDD |
+| Profiling | N/A | |
+| TDD | N/A | |
+
+## How to use
+
 Run with:
 ```bash
 bundle install
