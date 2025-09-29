@@ -7,6 +7,7 @@ gem "rackup", "~> 2.2"
 gem "puma", "~> 6.6"
 gem "activerecord", "~> 8.0"
 gem "sqlite3", "~> 2.6"
+gem "ruby-prof", "~> 1.7.2"
 
 gem "rerun", "~> 0.14.0"
 

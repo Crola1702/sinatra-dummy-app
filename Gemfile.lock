@@ -89,6 +89,8 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.13.0)
     rspec-support (3.13.2)
+    ruby-prof (1.7.2)
+      base64
     ruby2_keywords (0.0.5)
     securerandom (0.4.1)
     simplecov (0.22.0)
@@ -118,6 +120,7 @@ DEPENDENCIES
   rackup (~> 2.2)
   rerun (~> 0.14.0)
   rspec
+  ruby-prof (~> 1.7.2)
   simplecov
   sinatra!
   sqlite3 (~> 2.6)
